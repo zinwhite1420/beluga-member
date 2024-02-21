@@ -11,8 +11,8 @@ public class SwaggerConfiguration {
     @Bean
     public OpenAPI openAPI() {
         return new OpenAPI().info(new Info()
-            .title("Beluga Member API")
-            .description("회원 관리 API")
-            .version("1.0.0"));
+                .title("Beluga Member API")
+                .description("회원 관리 API")
+                .version("1.0.0"));
     }
 }
