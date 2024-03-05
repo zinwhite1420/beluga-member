@@ -12,6 +12,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
+  jwt:
+    secret: secrettestsecrettestsecrettestsecrettestsecrettestsecrettestsecrettestsecrettestsecrettestsecrettest
 springdoc:
   show-login-endpoint: true
+
